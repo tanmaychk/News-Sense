@@ -11,7 +11,7 @@ Before running the script, make sure you have the following dependencies install
 
 You can install the dependencies using the following command:
 ```
-pip install requests openai nltk
+pip: -r requirements.txt
 ```
 
 Additionally, you need to download the VADER lexicon by running the following code once:
@@ -21,10 +21,10 @@ nltk.download('vader_lexicon')
 ```
 
 ## API Keys
-To use the script, you need to provide your API keys for the News API and the OpenAI GPT-3 API. Replace the placeholder values with your actual API keys:
+To use the script, you need to provide your API keys for the News API and the OpenAI GPT-3 API. Replace the placeholder values with your actual API keys in the `secrets.toml` file:
 ```python
-NEWS_API_KEY = "YOUR_NEWS_API_KEY"
-CHATGPT_API_KEY = "YOUR_OPENAI_GPT3_API_KEY"
+NEWS_API_KEY = ""
+CHATGPT_API_KEY = "sk-"
 ```
 
 ## Functionality
