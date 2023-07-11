@@ -1,5 +1,5 @@
 # NewsSense
-A Streamlit app based on Pythin that fetches top news articles from the News API, generates a summary of each article using the OpenAI GPT-3 model, analyzes the sentiment of the article using the NLTK library, and classifies the article into different categories based on keywords.
+A Streamlit app based on Python that fetches top news articles from the News API, generates a summary of each article using the OpenAI GPT-3 model, analyzes the sentiment of the article using the NLTK library, and classifies the article into different categories based on keywords.
 
 ## Setup
 Before running the script, make sure you have the following dependencies installed:
@@ -36,7 +36,7 @@ The script provides the following functions:
 ## Usage
 To use the script, simply run the following command:
 ```
-streamlit run newssense.py
+streamlit run getNewsSense.py
 ```
 The script will fetch the top news articles, generate summaries, analyze sentiments, and classify articles. The results will be printed for each article. The script uses the `davinci` engine from the OpenAI GPT-3 model. Make sure you have sufficient credits or subscription to use the model effectively.
 
