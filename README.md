@@ -40,10 +40,10 @@ To use the script, simply run the following command:
 ```
 streamlit run newssense.py
 ```
-The script will fetch the top news articles, generate summaries, analyze sentiments, and classify articles. The results will be printed for each article.
+The script will fetch the top news articles, generate summaries, analyze sentiments, and classify articles. The results will be printed for each article. The script uses the `davinci` engine from the OpenAI GPT-3 model. Make sure you have sufficient credits or subscription to use the model effectively.
 
-## Note
-The script uses the `davinci` engine from the OpenAI GPT-3 model. Make sure you have sufficient credits or subscription to use the model effectively.
+## Screenshot
+![Screenshot](screenshot.JPG)
 
 ## License
 [MIT License](https://github.com/tanmaychk/news-sense/blob/main/LICENSE)
