@@ -27,17 +27,17 @@ def main():
         #Get Sentiment
         sentiment = ns.analyze_sentiment(content)
         #Categorize
-        categories = ns.classify_article(content)        
+        category = ns.classify_article(content)        
         
         print(f'\nTitle: {title}')
         print(f'URL: {url}')
         print(f'Summary: {summary}')
         print(f'Sentiment: {sentiment}')
-        print(f'Categories: {categories}')
+        print(f'Category: {category}')
         print('-' * 50)        
 
         html_str = f'<a href="{url}">{title}</a>&nbsp;{sentiment_name[sentiment]}<br/>'
-        st.info(categories[0])
+        st.info(category)
         st.markdown(html_str, unsafe_allow_html=True)
         st.caption(summary) 
 
